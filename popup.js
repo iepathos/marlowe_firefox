@@ -5,7 +5,7 @@ $("#checkPage").click(function(){
     dataType: 'json',
     data: $('#marlowe').serialize(),
     success: function (data) {
-      $("#resp").html("Objectivity Score: " + data.objectivity);
+      $("#resp").html("<h3>" + data.objectivity + "% objective</h3>");
     },
     beforeSend:function(){
       $("#resp").html("Loading...")
