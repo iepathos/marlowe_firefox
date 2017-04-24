@@ -10,13 +10,15 @@
    "default_popup": "popup.html",
    "default_title": "Marlowe Objectivity"
   },
-  // "background_page": "background.html",
+  "background": { 
+    "scripts": ["jquery.js", "background.js"]
+  },
   "content_scripts": [ {
     "js": [ "jquery.js", "popup.js" ],
     "matches": [ "http://*/*", "https://*/*"]
   }],
   "permissions": [
    "activeTab",
-   "https://ajax.googleapis.com/"
+   "contextMenus"
    ]
 }
