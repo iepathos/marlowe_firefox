@@ -3,7 +3,7 @@ function getObjectivity(info, tab) {
     type: 'POST', 
     url: 'https://morning-harbor-96808.herokuapp.com', 
     dataType: 'json',
-    data: $('#marlowe').serialize(),
+    data: {"text": info.selectionText},
     success: function (data) {
       alert(data.objectivity * 100 + "% objective");
     }
