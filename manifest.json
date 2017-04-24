@@ -12,7 +12,7 @@
   },
   // "background_page": "background.html",
   "content_scripts": [ {
-    "js": [ "jquery.js", "background.js" ],
+    "js": [ "jquery.js", "popup.js" ],
     "matches": [ "http://*/*", "https://*/*"]
   }],
   "permissions": [
