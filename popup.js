@@ -4,8 +4,9 @@ $("#checkPage").click(function(){
     url: 'https://morning-harbor-96808.herokuapp.com', 
     dataType: 'json',
     data: $('#marlowe').serialize(),
-    success: function (x) {                
-      $("#resp").html(x.response);
+    success: function (data) {
+      console.log(data)         
+      $("#resp").html("Objectivity Score: " + data.objectivity);
     },
     beforeSend:function(){
       $("#resp").html("Loading...")
