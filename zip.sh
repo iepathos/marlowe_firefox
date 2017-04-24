@@ -1,2 +1,2 @@
 # zip directory
-git archive HEAD --format=zip > marlowe.zip
+zip marlowe * --no-dir-entries --exclude *.sh *.zip
