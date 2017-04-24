@@ -11,8 +11,5 @@ $("#checkPage").click(function(){
       $("#resp").html("Loading...")
     }
   });
-  setTimeout(function () {
-    return false;
-  }, 10000);
-  
+  return false;
 });
