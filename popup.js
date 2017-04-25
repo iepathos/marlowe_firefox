@@ -5,7 +5,7 @@ $("#checkPage").click(function(){
     dataType: 'json',
     data: $('#marlowe').serialize(),
     success: function (data) {
-      $("#resp").html("<h3>" + data.objectivity * 100 + "% objective</h3>");
+      $("#resp").html("<h3>" + Math.round(data.objectivity * 100) + "% objective</h3>");
     },
     beforeSend:function(){
       $("#resp").html("Loading...")

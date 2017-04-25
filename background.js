@@ -5,7 +5,7 @@ function getObjectivity(info, tab) {
     dataType: 'json',
     data: {"text": info.selectionText},
     success: function (data) {
-      alert(data.objectivity * 100 + "% objective");
+      alert(Math.round(data.objectivity * 100) + "% objective");
     }
   });    
 }
