@@ -3,12 +3,12 @@
 
   "name": "Marlowe Objectivity Extension",
   "description": "This extension analyzes the objectivity of given text.",
-  "version": "0.3",
+  "version": "0.4",
 
   "browser_action": {
    "default_icon": "icon.png",
    "default_popup": "popup.html",
-   "default_title": "Marlowe Objectivity"
+   "default_title": "Marlowe Objectivity Extension"
   },
   "background": { 
     "scripts": ["jquery.js", "background.js"]
