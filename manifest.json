@@ -4,6 +4,11 @@
   "name": "Marlowe Objectivity Extension",
   "description": "This extension analyzes the objectivity of given text.",
   "version": "0.4",
+  "default_locale": "en",
+  "author": "Glen Baker <iepathos@gmail.com>",
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
 
   "browser_action": {
    "default_icon": "icon.png",
