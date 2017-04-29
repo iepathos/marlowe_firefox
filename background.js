@@ -15,7 +15,8 @@ function getObjectivity(info, tab) {
           for(var i = 0, len = scores.length; i < len; i++) {
               sum += scores[i];
           }
-          alert(sum/2 + "% objective");
+          var alertWindow = 'alert('+sum/2 +' + "% objective")';
+          browser.tabs.executeScript({code : alertWindow});
         }
       }
     });
