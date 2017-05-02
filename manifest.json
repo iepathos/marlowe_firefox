@@ -3,7 +3,7 @@
   "name": "Objectivity",
   "short_name": "objectivity",
   "description": "Estimates the objectivity of text using an ensemble machine learning approach.",
-  "version": "0.4",
+  "version": "0.5",
   "author": "Glen Baker <iepathos@gmail.com>",
   "icons": { 
     "16": "icon16.png",
