@@ -17,11 +17,6 @@
    "default_popup": "popup.html",
    "default_title": "Objectivity"
   },
-  "applications": {
-    "gecko": {
-      "id": "objectivity"
-    }
-  },
   "background": { 
     "scripts": ["jquery.js", "background.js"]
   },
