@@ -1,2 +1,2 @@
 # zip directory
-zip marlowe * --no-dir-entries --exclude *.sh *.zip
+zip -r -FS marlowe * --no-dir-entries --exclude *.sh *.zip
