@@ -3,7 +3,7 @@
   "name": "Objectivity",
   "short_name": "objectivity",
   "description": "Estimates the objectivity of text using an ensemble machine learning approach.",
-  "version": "0.5",
+  "version": "0.6",
   "author": "Glen Baker <iepathos@gmail.com>",
   "icons": { 
     "16": "icon16.png",
@@ -18,10 +18,10 @@
    "default_title": "Objectivity"
   },
   "background": { 
-    "scripts": ["jquery.js", "background.js"]
+    "scripts": ["jquery.min.js", "background.js"]
   },
   "content_scripts": [ {
-    "js": [ "jquery.js", "popup.js" ],
+    "js": [ "jquery.min.js", "popup.js" ],
     "matches": [ "http://*/*", "https://*/*"]
   }],
   "permissions": [
