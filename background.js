@@ -1,6 +1,6 @@
 function getObjectivity(info, tab) {
   var scores = [];
-  var urls = ['https://morning-harbor-96808.herokuapp.com', 'https://desolate-bastion-86556.herokuapp.com']
+  var urls = ['https://morning-harbor-96808.herokuapp.com', 'https://desolate-bastion-86556.herokuapp.com', 'https://secure-basin-62593.herokuapp.com']
   $(urls).each(function() {
     $.ajax({
       type: 'POST', 
